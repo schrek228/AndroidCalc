@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidCalc</string>
+    <string name="name">Имя</string>
+    <string name="age">Возраст</string>
+    <string name="mass">Масса тела</string>
+    <string name="height">Рост</string>
+    <string name="Registr">Регистрация</string>
+    <string name="noinput">Не все поля заполнены</string>
+    <string name="calories">Суточная норма калорий</string>
+    <string name="water">Суточная норма воды</string>
+    <string name="gender">Женщина</string>
+
+</resources>

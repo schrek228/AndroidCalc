@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/tc"
+        android:textSize="30sp"
+        android:textColor="@color/tc"
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/tc"
+        android:textSize="30sp"
+        android:textColor="@color/tc"
+        />
+
+    <EditText
+        android:id="@+id/mass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/mass"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/tc"
+        android:textSize="30sp"
+        android:textColor="@color/tc"
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/height"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/tc"
+        android:textSize="30sp"
+        android:textColor="@color/tc"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/Registr"
+        android:textAlignment="center"
+        android:textColorHint="@color/tc"
+        android:textSize="60sp"
+        android:textColor="@color/tc"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginHorizontal="122sp"
+        android:layout_marginTop="340sp"
+        android:text="@string/Registr"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="550sp"
+        android:text="@string/calories"
+        android:textSize="34sp"
+        android:textColor="@color/tc"
+        />
+
+    <TextView
+        android:id="@+id/water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500sp"
+        android:text="@string/water"
+        android:textColor="@color/tc"
+        android:textSize="34sp" />
+
+
+    <CheckBox
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100sp"
+        android:layout_marginTop="450sp"
+        android:text="@string/gender"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
