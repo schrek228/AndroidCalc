@@ -2,6 +2,7 @@ package com.example.androidcalc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,10 +16,11 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private EditText name, age, mass, height;
-    private Button button;
+    private Button button, next, progress;
     private TextView water,calories;
     public static double dmass,dheight,dage,caloriesrec;
     public static boolean sex;
+
 
     private CheckBox gender;
 
@@ -37,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         water = findViewById(R.id.water);
         calories = findViewById(R.id.calories);
         gender = findViewById(R.id.gender);
+        next = findViewById(R.id.next);
+        progress = findViewById(R.id.progress);
+
 
 
 
@@ -94,5 +99,24 @@ public class MainActivity extends AppCompatActivity {
 
 
         });
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (v.getId() == R.id.next) {
+                    Intent intent = new Intent(MainActivity.this, Calculator.class);
+                    startActivity(intent);
+                }
+            }
+        });
+        progress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (v.getId() == R.id.progress) {
+                    Intent intent = new Intent(MainActivity.this, WaterFoodProgress.class);
+                    startActivity(intent);
+                }
+            }
+        });
+
     }
 }

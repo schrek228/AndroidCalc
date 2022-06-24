@@ -9,5 +9,10 @@
     <string name="calories">Суточная норма калорий</string>
     <string name="water">Суточная норма воды</string>
     <string name="gender">Женщина</string>
+    <string name="calc">Калькулятор</string>
+    <string name="action_settings">Settings</string>
+    <string name="Progress">Цели</string>
+    <string name="waterglass">+ стакан</string>
+
 
 </resources>
